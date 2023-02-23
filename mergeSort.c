@@ -66,13 +66,13 @@ int main(void)
         printf(" ");
     }
 
-    int arr[] = {};
-    int length = sizeof(arr) / sizeof(int);
+    int arr1[] = {};
+    int length1 = sizeof(arr1) / sizeof(int);
     printf("sorted array is ");
-    quickSort(arr, length);
-    for (int i = 0; i < length; i++)
+    mergeSort(arr1, length1);
+    for (int i = 0; i < length1; i++)
     {
-        printf("%d", arr[i]);
+        printf("%d", arr1[i]);
         printf(" ");
     }
 }
