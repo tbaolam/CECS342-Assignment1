@@ -65,4 +65,14 @@ int main(void)
         printf("%d", arr[i]);
         printf(" ");
     }
+
+    int arr[] = {};
+    int length = sizeof(arr) / sizeof(int);
+    printf("sorted array is ");
+    quickSort(arr, length);
+    for (int i = 0; i < length; i++)
+    {
+        printf("%d", arr[i]);
+        printf(" ");
+    }
 }
